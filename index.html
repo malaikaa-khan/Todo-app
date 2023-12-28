@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav">
+        <div id="logo">Todo List</div>
+        <!---<input type="text" placeholder="Search" id="search">-->
+    </div>
+    <div id="container">
+        <div id="title">
+            Welcome in Todo List Application
+        </div>
+        <div id="box">
+            <input type="text" placeholder="Enter your task" id="input">
+            <input type="hidden" id="saveIndex">
+            <button class="btn" id="add">Add Task</button>
+            <button class="btn" id="save" style="display: none;">SaveTask</button>
+            <button class="btn" id="deleted">Delete All</button>
+            <div id="tabel">
+
+            </div>
+            <br/>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
